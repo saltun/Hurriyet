@@ -6,9 +6,6 @@ include "Hurriyet.php";
 $h=new Hurriyet(KEY_BİLGİNİZ);
 
 
-
-
-
 // Yazıları listeler ( 3 parametre alır dökümana bakınız. )
 
 //$h->listArticle();
