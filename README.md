@@ -50,6 +50,11 @@ $h->getColumnist('40262192') // benzersiz id numarasını listelettiğiniz köş
 
 [Detaylar için tıklayınız](https://developers.hurriyet.com.tr/docs/versions/1.0/resources/column)
 
+Api sonuçlarını listeleme
+``` php
+$h->getData() // json değeri döner
+```
+
 Eklenecek methodlar
 =========
 - Date

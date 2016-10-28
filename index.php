@@ -3,7 +3,7 @@ include "Hurriyet.php";
 
 // Sınıfın başlagıcında api key bilginizi veriniz 
 
-$h=new Hurriyet(KEY_BİLGİNİZ);
+$h=new Hurriyet();
 
 
 // Yazıları listeler ( 3 parametre alır dökümana bakınız. )
@@ -13,8 +13,7 @@ $h=new Hurriyet(KEY_BİLGİNİZ);
 
 
 // Yazıyı id değerine göre getirir 
-
-//$h->getArticle('40262101');
+$h->getArticle('40262101');
 
 
 // Tüm köşe yazarlarını içeriklerini listeler ( 3 parametre alır dökümana bakınız. )
