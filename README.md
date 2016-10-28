@@ -10,7 +10,7 @@ Key bilginizi dahil edip sınıfı başlatmanız yeterli.
 
 ``` php
 require_once "Hurriyet.php";
-$h = new Hurriyet(KEY_BİLGİNİZ);
+$h = new Hurriyet(KEY_BILGINIZ);
 ```
 
 Yazıları listeleme fonksiyonu 
