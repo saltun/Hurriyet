@@ -99,6 +99,34 @@ class Hurriyet {
         $this->getRequest('date');
         
     }
+	 /**
+	 * Haber içi foto galerileri listeler
+	 * @param string
+     * @param string
+     * @param string
+	 * @return void
+	 */
+    public function getNewsPhotoGalleries($filter=null,$select=null,$count=null){
+    	if (empty($filter)) {
+            
+            $this->getRequest('newsphotogalleries');
+        } else {
+            
+            $this->getRequest('newsphotogalleries?filter=' . $filter . '&select=' . $select . '&top=' . $count);
+        }
+
+    }
+
+     /**
+     * Belirli bir foto galerisini listeler
+     * @param string
+     * @return void
+     */
+    public function getPhotoGalleri($id) {
+        
+        $this->getRequest('newsphotogalleries/' . $id);
+        
+    }
     
     /**
      * CURL Fonksiyonu sorguyu alır çalıştırır data değişkenine aktarır 

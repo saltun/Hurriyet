@@ -59,14 +59,27 @@ $h->date()
 
 [Detaylar için tıklayınız](https://developers.hurriyet.com.tr/docs/versions/1.0/resources/date)
 
-Api sonuçlarını listeleme
+Yeni fotoğraf galerilerini listeleme
 ``` php
-$h->getData() // json değeri döner
+$h->getNewsPhotoGalleries();
 ```
+Ayrıca bu fonksiyon 3 farklı kural alabilir bunlar için döküman sayfasını takip edip parametreleri tek tek sırası ile göndere bilirsiniz. 
+
+``` php
+$h->getNewsPhotoGalleries("foo",'foo',42);
+```
+
+Belirli bir foto galerinin görsellerini listeleme
+``` php
+$h->getPhotoGalleri('40262280') // benzersiz id numarasını listelettiğiniz foto galerilerden edine bilirsiniz. 
+```
+
+[Detaylar için tıklayınız](https://developers.hurriyet.com.tr/docs/versions/1.0/resources/news-photo-gallery)
+
+
 
 Eklenecek methodlar
 =========
-- News Photo Gallery
 - Page
 - Path
 - Writer
