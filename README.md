@@ -50,6 +50,14 @@ $h->getColumnist('40262192') // benzersiz id numarasını listelettiğiniz köş
 
 [Detaylar için tıklayınız](https://developers.hurriyet.com.tr/docs/versions/1.0/resources/column)
 
+Date fonksiyonu
+RFC 1123 tipinde tarih dizisi döndürür. RFC 1123 için "ols.ietf.org/html/rfc1123" adresine bakınız.
+``` php
+$h->date()  
+```
+
+[Detaylar için tıklayınız](https://developers.hurriyet.com.tr/docs/versions/1.0/resources/date)
+
 Api sonuçlarını listeleme
 ``` php
 $h->getData() // json değeri döner
