@@ -2,6 +2,7 @@
 Developers Hurriyet için geliştirilmiş php api sınıfı api sistemini kolay bir şekilde kullanmanızı sağlar.
 Api Sistemi v1
 
+Key bilgisi edinmek için => [Developers Hurriyet](https://developers.hurriyet.com.tr/)
 
 Kullanımı
 =========
