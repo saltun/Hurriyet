@@ -89,6 +89,16 @@ class Hurriyet {
         $this->getRequest('columns/' . $id);
         
     }
+
+     /**
+     * RFC 1123 tipinde tarih dizisi döndürür. RFC 1123 için "ols.ietf.org/html/rfc1123" adresine bakınız.
+     * @return void
+     */
+    public function date() {
+        
+        $this->getRequest('date');
+        
+    }
     
     /**
      * CURL Fonksiyonu sorguyu alır çalıştırır data değişkenine aktarır 
