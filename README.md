@@ -65,7 +65,6 @@ $h->getData() // json değeri döner
 
 Eklenecek methodlar
 =========
-- Date
 - News Photo Gallery
 - Page
 - Path
